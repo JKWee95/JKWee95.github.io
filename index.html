@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="https://dl.dropbox.com/s/8c0ayy4t4n0m2m2/style.css">
+        <link rel="stylesheet" href="https://dl.dropbox.com/s/4jqthsyb0a0r1tm/style.css">
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -246,15 +246,15 @@
                         <div class="formComing">
 
                             <div id=attendees class=attendees>
-
-                                <div id=attendee1 class=attendee1>
-                                    <form method="POST" action="https://script.google.com/macros/s/AKfycbyDmZoNsXVtx6F2Knyk0mikmpIwa_zwFf0QQj2aIEsnKJa7Jj-kCh5QRXXG8pGFVAwx/exec" id="form" class="form0">
+                                <form method="POST" action="https://script.google.com/macros/s/AKfycbyDmZoNsXVtx6F2Knyk0mikmpIwa_zwFf0QQj2aIEsnKJa7Jj-kCh5QRXXG8pGFVAwx/exec" id="form" class="form0">
+                                    <div id=attendee1 class=attendee1>
                                         <div class=attendeeTitle0 id="attendeeTitle"><u class=atnheader> Attendee </u><u> 1: </u></div>
-                                        <input type="text" id="fname" name="0[firstn]" placeholder="Name" class="firstname0 firstName">
+                                        <input type="text" id="fname" name="0[firstn]" placeholder="Name" class="firstname0 firstName" required>
+                                        <!--input type="text" id="fname" name="1[firstn]" placeholder="Name" class="firstname0 firstName" required-->
                                         <div class=RelationshipWithGroomAndBride>
                                             <div class="Relationship"> 
                                                 <div class=RelationshipWithGroom>Relationship with Groom <br> (For seating arrangement purpose)<br></div>
-                                                <input type="radio" class="relationship0 relationship" name="0[Rela]" value="familyOrCousinWithGroom">
+                                                <input type="radio" class="relationship0 relationship" name="0[Rela]" value="familyOrCousinWithGroom" required>
                                                 <label for="familyOrCousinWithGroom" class=familyOrCousinWithGroom>Family/Cousin with Groom</label><br>
                                                 <input type="radio" class="relationship0 relationship" name="0[Rela]" value="PCFWithGroom">
                                                 <label for="PCFWithGroom" class=PCFWithGroom>Primary School Friend with Groom</label><br>
@@ -297,8 +297,8 @@
                                         <input id="Comments" name="Comments" type="text" placeholder="Comments" class="hidingSubmit Commentsfinal0">
                                         <input id="ComingNotComing" name="ComingNotComing" type="text" placeholder="ComingNotComing" class="hidingSubmit ComingNotComing0">
                                         <button type="submit" class="hidingSubmitsss0 hidingSubmit" id="asdasd">Send</button>
-                                    </form>
-                                </div>
+                                    </div>
+                                </form>   
                             </div>
                             <button type="button" class="button" id="button">
                             <span class="button__text">Add one more attendee</span>
@@ -322,6 +322,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"defer></script>
-        <script src='https://dl.dropbox.com/s/nbkaxuvhwlbsqkr/script.js'></script>
+        <script src='https://dl.dropbox.com/s/alxprxo9tb00pr5/script.js'></script>
     </body>
 </html>
